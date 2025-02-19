@@ -47,7 +47,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Numeros
+  - name: Front
     uniqueID: 365506729
     locked: 0
   - name: Fichas
