@@ -1182,7 +1182,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 423562246}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8baedb1cb32e7d40bbebd0ed278be69, type: 3}
+  m_Script: {fileID: 11500000, guid: 63926be1037d92945b1448d6a38e47b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dealBtn: {fileID: 1293202553}
