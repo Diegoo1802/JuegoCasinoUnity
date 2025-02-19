@@ -280,7 +280,7 @@ MonoBehaviour:
   m_ScaleFactor: 1.14
   m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2011,7 +2011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 761, y: -156}
+  m_AnchoredPosition: {x: 761, y: -156.00002}
   m_SizeDelta: {x: 570.1273, y: 205.45331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324220758
@@ -6709,8 +6709,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fe8ecf571c513045afb9b28aa46f483, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterTable: {fileID: 0}
-  gameCmdFactory: {fileID: 0}
+  characterTable: {fileID: 11400000, guid: dcf65df1e62d063479bad21d940e398d, type: 2}
+  gameCmdFactory: {fileID: 11400000, guid: f7ba5b05108593e45a6a994947132d78, type: 2}
 --- !u!114 &1006151035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6779,9 +6779,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9fbbaca720c3d34d9b21cc076372301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 0
-  _delay: 0
-  _scaleXYZ: {x: 0, y: 0, z: 0}
+  _duration: 0.3
+  _delay: 0.1
+  _scaleXYZ: {x: 1, y: 1, z: 1}
 --- !u!114 &1006151037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10399,8 +10399,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6a9893e3230df438a87a2115e53e36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterTable: {fileID: 0}
-  gameCmdFactory: {fileID: 0}
+  characterTable: {fileID: 11400000, guid: dcf65df1e62d063479bad21d940e398d, type: 2}
+  gameCmdFactory: {fileID: 11400000, guid: f7ba5b05108593e45a6a994947132d78, type: 2}
 --- !u!114 &1546804424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10507,9 +10507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9fbbaca720c3d34d9b21cc076372301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 0
-  _delay: 0
-  _scaleXYZ: {x: 0, y: 0, z: 0}
+  _duration: 0.3
+  _delay: 0.1
+  _scaleXYZ: {x: 1, y: 1, z: 1}
 --- !u!1 &1551036838
 GameObject:
   m_ObjectHideFlags: 0
@@ -11942,9 +11942,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c1c3cfee79232a4bbdba996180787fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chartacterTable: {fileID: 0}
-  gameRoullete: {fileID: 0}
-  gameCmdFactory: {fileID: 0}
+  chartacterTable: {fileID: 11400000, guid: dcf65df1e62d063479bad21d940e398d, type: 2}
+  gameRoullete: {fileID: 11400000, guid: 5f1534f4ae4382f4eb50fc96bf3e998f, type: 2}
+  gameCmdFactory: {fileID: 11400000, guid: f7ba5b05108593e45a6a994947132d78, type: 2}
 --- !u!114 &1882127199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12051,9 +12051,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9fbbaca720c3d34d9b21cc076372301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 0
-  _delay: 0
-  _scaleXYZ: {x: 0, y: 0, z: 0}
+  _duration: 0.3
+  _delay: 0.1
+  _scaleXYZ: {x: 1, y: 1, z: 1}
 --- !u!1 &1917921394
 GameObject:
   m_ObjectHideFlags: 0
@@ -12327,9 +12327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529fe23408769064591167eb77c3489d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterTable: {fileID: 0}
-  gameCmdFactory: {fileID: 0}
-  magnetDestroyerDisplay: {fileID: 0}
+  characterTable: {fileID: 11400000, guid: dcf65df1e62d063479bad21d940e398d, type: 2}
+  gameCmdFactory: {fileID: 11400000, guid: f7ba5b05108593e45a6a994947132d78, type: 2}
+  magnetDestroyerDisplay: {fileID: 981600703}
 --- !u!114 &1934917923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12342,9 +12342,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9fbbaca720c3d34d9b21cc076372301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 0
-  _delay: 0
-  _scaleXYZ: {x: 0, y: 0, z: 0}
+  _duration: 0.3
+  _delay: 0.1
+  _scaleXYZ: {x: 1, y: 1, z: 1}
 --- !u!1 &1955951759
 GameObject:
   m_ObjectHideFlags: 0
